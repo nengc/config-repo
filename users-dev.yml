@@ -1,11 +1,11 @@
-# gateway·şÎñµÄµØÖ·
+ï»¿# gatewayæœåŠ¡çš„åœ°å€
 spring:
     cloud:
         config:
             gateway:
                 uri: http://192.168.99.100:10000
 
-# Òª¶ÁÈ¡µÄÅäÖÃÎÄ¼şprofileÊôĞÔ,Ä¬ÈÏÊÇdev
+# è¦è¯»å–çš„é…ç½®æ–‡ä»¶profileå±æ€§,é»˜è®¤æ˜¯dev
 spring:
     cloud:
         config:
