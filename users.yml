@@ -1,0 +1,12 @@
+# gateway服务的地址
+spring:
+    cloud:
+        config:
+            gateway:
+                uri: http://192.168.99.100:10000
+
+# 要读取的配置文件profile属性,默认是dev
+spring:
+    cloud:
+        config:
+            profile: ${config.profile:dev}
